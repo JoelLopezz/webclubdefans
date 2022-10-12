@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Club De Fans De Tesla</h1>
+        <a href="https://www.tesla.com/es" target="_blank"> <img src="../img/tesla.png" alt="Logo Tesla" width="50" height="50"></a>  <!--Logo de tesla--> 
+        <nav>
+            <a href="../index.html">Inici</a>
+            <a href="../web/general.html">General</a>
+            <a href="../web/fotos.html">Fotos</a>
+            <a href="./videos.html">Videos</a>
+            <a href="../web/agenda.html">Agenda</a>
+            <a href="../web/contacte.html">Contacte</a>
+        </nav>
+    </header>           <!--formulari de proba (no te res a veure amb tesla pero era per probar els formularis xD)-->
+
+                <form action="mailto:joelpa465@gmail.com" method="post">
+                <table> 
+                        <tr>
+                                <th><label for="Idnombredeusuario"> Nom:</label></th>
+                                <td><input type="text" name="nombredeusuario" id="Idnombredeusuario" placeholder="Escriu el teu nom" autofocus size="50" required maxlength="20"></td>
+                                           
+                        </tr>
+                        <tr>
+                                <th><label for="Idcognom">Primer Cognom:</label></th>
+                                <td><input type="text" name="cognom" id="Idcognom" placeholder="Escriu el teu cognom" autofocus size="50" required maxlength="80"></td> 
+                        </tr>
+                        <tr>
+                                <th><label for="IdSegoncognom">Segon Cognom:</label></th>
+                                <td><input type="text" name="Segon Cognom" id="IdSegoncognom" placeholder="Escriu el teu segon cognom" autofocus size="50" maxlength="30" required></td>
+                        </tr>
+                        <tr>
+                                <th><label for="Idsexe"> Sexe:</label></th>
+                                <td><Select name="Sexe" id="Idsexe">
+                                        <option value="Home">Home</option>
+                                        <option value="Dona">Dona</option>
+                                        <option value="Altre">Altre</option>
+                                </Select></td>
+                        
+                        </tr>
+                        <tr>
+                                <th><label for="idmodulsmx2a">Mòduls Preferits de SMX2:</label></th>
+                                       <td> <input type="checkbox" name="DnI" id="idmodulsmx2a">
+                                        <label for="idDnI">D.N.I</label> <br>
+                                        <input type="checkbox" name="Pasaport" id="idPasaport">
+                                        <label for="idPassaport">Pasaport</label> <br>
+                       </td>
+                        </tr>
+                    
+                        <tr>
+                                <th><label for="iddocidefintificatiu" id="iddocid">Document Identificatiu:</label></th>
+                                <td><input type="text" name="Document Identificatiu" id="iddocid" placeholder="46157310D" size="30" maxlength="9"></td>
+
+                        </tr>
+                        <tr>
+                                <th><label for="idE-mail" id="idE-mail">E-mail:</label></th>
+                                <td><input type="text" name="idE-mail" id="idE-mail" placeholder="Escriu el teu email" size="30"></td>
+                    
+                        </tr>
+                        <tr>
+                                <th><label for="iddatneix" id="iddatneix">Data Neixement</label></th>
+                                <td> <input type="date" name="Data Neixement" id="iddatneix" value="1999-01-01" required size="30"></td>
+                        </tr>
+                
+
+                        <tr>
+                                <th><label for="muestrario">Color:</label></th>
+                                <td><input type="color" value="#ff0000" id="muestrario"></td>
+                        </tr>
+                        <tr>
+                                <th><label for="id1">Informacio referent:</label></th>
+                        <td>
+                                <input type="checkbox" name="primera opcion" id="id1">
+                                <label for="idDnI">Sol·licitud d'afiliació a la seguretat socail, assignació de número de seguretat social i variació de dades</label> <br>
+                                <input type="checkbox" name="primera opcion" id="id1">
+                                <label for="idPassaport">Sol·licitud d'alta, baixa o variació de dades del treballador que compte d'altri -a instàncies del treballador/</label> <br>
+                                <input type="checkbox" name="primera opcion" id="id1" checked name="id1">
+                                <label for="idDnI">Sol·licitud de document o informació existents en les bases de dades de la Tresoreria General de la Seguretat Social sobre persones fisiques</label> <br>
+                                <input type="checkbox" name="primera" id="id1">
+                                <label for="idDnI">Sol·licitud de sustitución de Convenio Especial al amparo de la Orden TAS/2865/2003</label> <br>
+                                <input type="checkbox" name="primera opcion" id="id1">
+                                <label for="idDnI">Autorització de lliurament d'informació a persona diferent al seu titular</label> <br>
+                                <input type="checkbox" name="primera opcion" id="id1">
+                                <label for="idDnI">Sol·licitud d'alta de Conveni Especial de Cuidadors no Professionals</label> <br>
+
+                    </td>
+                    </tr>
+                    <tr>
+                                <th><label for="1" id="1">Quina es la categoria de la teva cita:</label></th>
+                    <td>
+                                <input type="radio" name="1" id="1">
+                                <label for="id1">1</label> <br>
+                                <input type="radio" name="1" id="1">
+                                <label for="id2">2</label> <br>
+                                <input type="radio" checked name="1"  id="1">
+                                <label for="id1">3</label> <br>
+                                <input type="radio" name="1" id="1">
+                                <label for="id1">4</label> <br>
+                                <input type="radio" name="1" id="1">
+                                <label for="id1">5</label> <br>
+                        
+                    </td>
+                    </tr>
+                    <tr>
+                                <th><label for="categoria" id="Idcategoria">Què t'està semblant el formulari?</label></th>
+                                <td><Select name="categoria" id="Idcategoria">
+                                        <option value="M'ha agradat molt">M'ha agradat molt</option>
+                                        <option selected  value="M'ha agradat" >M'ha agradat</option> 
+                                        <option value="Ni fu ni fa">Ni fu ni fa</option>
+                                        <option value="No m'ha agradat gaire">No m'ha agradat gaire</option>
+                                        <option value="No m'ha agradat gens">No m'ha agradat gens</option>
+                                </Select></td>
+                
+                     </tr>
+                     <tr>
+                                <th><label for="Entrega" id="entrega">Nota que esperes d'aquesta entrega:</label></th>
+                                <td><input type="number" name="Nota" min="0" max="10" value="5" id="entrega" autofocus size="30"></td>
+        
+                     </tr>
+                     <tr>
+                                <th><label for="passwd" id="passwd">Escriu una password per xifrar l'entrega</label></th>
+                                <td><input type="password" name="passwd" id="passwd" placeholder="Escriu un password"  autofocus size="10" maxlength="10"></td>
+                    </tr>
+            
+            
+                    <tr>
+                            <td colspan="2">
+                                <input type="submit" value="Enviar Respostes!">
+                                <input type="reset" value="Netejar Formulari!">
+                            </td>
+                    </tr>
+            </table>
+
+
+
+    <footer>
+        <p>&copy;Tesla Motors</p>
+                
+                    <a href="https://es-es.facebook.com/" target="_blank"><img src="../img/facebook.jpg" alt="Logo Facebook" width="50" height="50" ></a>
+                    <a href="https://twitter.com/" target="_blank"><img src="../img/Twitter.jpg" alt="Logo Twitter" width="50" height="50"></a>
+                    <a href="https://www.google.es/" target="_blank"> <img src="../img/google+.jpg" alt="Logo Google+" width="50" height="50"></a>
+                
+    </footer>
+</body>
+</html>
